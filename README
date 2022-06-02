@@ -1,0 +1,19 @@
+1. Clonar el proyecto dentro de un servidor web local.
+2. Instalar "Composer" desde la web oficial.
+3. Abrir una consola y dirigirse al directorio donde se clonó el proyecto.
+4. Ejecutar el comando "composer install" para que se descarguen todas las dependencias.
+5. Ejecutar el comando "php token_generator.php": Saldrá en la consola un enlace que hay que abrir en un navegador.
+      Este enlace nos llevará a un sitio donde autenticarnos con un usuario que tenga permisos de edición en la API de workspace.
+      Al iniciar sesión nos redirigirá a una web con un token que tendremos que copiar y pegar en la consola de comandos.
+      Al pulsar "Intro" notaremos que se crea un nuevo fichero llamado "token_workspace.json".
+6. Arrancar el servidor local y abrir la carpeta "localhost/ucloud/text_connection_index.php".
+
+
+
+Para subir los cambios a Google App Engine tener descargado y configurado el SDK de google y ejecutar:
+gcloud app deploy --project ucloud-dev-01
+"app" hace referencia al nombre del fichero "app.yaml" y "ucloud-dev-01" hace referencia al nombre del proyecto de GCP.
+En importante que en el fichero .gcloudignore esté indicado que se ignore:
+/google/
+/vendor/
+Automáticamente al subir al servidor ejecutará un composer install y conseguirá estas dependencias de forma automática.

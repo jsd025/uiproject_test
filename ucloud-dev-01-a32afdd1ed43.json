@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ucloud-dev-01",
+  "private_key_id": "a32afdd1ed437ea2d908272f12944510f9cbde59",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDuBLLXlVXVVGQW\n7LI8le3CJJSPNkK92RSyYMoBgm+FwJHtygHjNUuUz3CQVEuxcoOFSJIf1sHzeg9G\nV7vEw+CNFnXxtP3PcgeRQ7y1P2PnRX7d61wuqDxphsHQ11/UKTZX5DNcqkflveIv\n2scQlQoS+7ywCVNeaY93pS5abQAkDI4JP6nlTbxLHs34PKN04RrPZpp3jnF/aQl6\nhi+M2hZaQASZhV2YKgz/yg7V4BIEKCi89uHRyyynVKXgZ5uTPuyAOpqoX7WWR887\n0by/HgIyrzC9oKrpxzbdUiog7TbGyHx2nrliiJ4YmHgLTNGTo5i1LqtoAv+4WFXX\nKB7wBpfFAgMBAAECggEAOem2wjG5wsBX4iQRciBgy14vL3FaZ+sL2CMow5lDHV4v\no5YFQ41SKJEYqGV6TWC5k5KGy2xroJxQXyM1srieSHXwmLEbGIB8SuIaZldYLYuB\nROnhchDJMjvxqKjezjaA3H3P6XodKE89W7t1uBkrbFcIICUEvfIdUFVGpAXlhN94\n/oaUOm1mnehrCtjHnwFsAHxOqBeKXejH2hBBGeMrz2aBTzwsoSclHNNKOGgA2QlL\nu9fQIUbt/Ncs9Ou0BGKZazws7XtvS4zir7oP1dP5ArrHhGFwT5QaI4djyuttFb2v\n3mVtEhNktX5hrAGVwyorXuyyZONN7LMgCtS+i038eQKBgQD9I+P3S5FbD+CoWaYL\nl4aY8yX6Drwjqu/fF0hhiyWrqeuOvMlhB2hPlTPwM6lnrntjOfk/tYwcZyTy9hMS\nNw7loC8jYk3xi2sU86p/WoDM+mICBzaCT7gu6+d+ATUAi0n8YerJ6ZscxsDv4abH\nc1/AFMl7bhxDSQRYXrr6/7QNewKBgQDwtRL1yYThOflSzskoCOAwuVh/M/fMmkZH\nFDiVn0GR6oFWJLKMhJ+avWMt02Zj77qAZW0dKgkyi9ChF/pMCB41uVQf4VbyZB7d\n+f1QNdXVZbTClcb5CHDON9aAzgQuH1KdTFNtHtMAzspI1rmAPZz4bam3tHSsksJF\nO7qYhgDLvwKBgQDxjXL2QpTUqUT+QHWS8CePAc6GW9Mp0e6NGkGGWuo6ca2Gih07\nyn6+Gijyl8maV0QEfoiaQ5oMbFw0v52ZLxK3CXCRujeYOyqWVqGmXu0zK+Wj+9AG\n7x1ZIODIO0yhVUjnXWRXAeRyxDHNdazY+/4tY2iTsJGlnyJXVSXlZ2UfywKBgQDL\n+pZ7pO8vMcK/0q6Sd5sMjzSYbwCR6Tae61rcKF4XeiNqTaTlAUqDhfRzFA9TpwZj\n4g+qREIRDHya10frgIGhQ1EvxvS4afHiaAOrIkP4F70rnGNGDEoT5yumcW8HatHG\nrLSR5yomKBcxzIzcSNopiDzniUvKJn/szaXdtMkd3wKBgQD0lageKRYr8tSdEgRS\nbGl9hBhApdejXBJlH4MG3E+oih9NUASXAe6vO6dq0/R5o5sMPeL2I3EmnR6KQ7Xh\njWIirsCCXP19UdTOxxZKytwuxYGYvER8K8bXoKCVx4xG4YpPHzrEcunnfz9zU382\ndHXeFeEWgl6k6gw+robOE4lMKw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "ucloud-dev-01@appspot.gserviceaccount.com",
+  "client_id": "116408071548313110799",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ucloud-dev-01%40appspot.gserviceaccount.com"
+}
