@@ -172,8 +172,10 @@ if ($GOOGLE_IS_GOOGLE_ACCOUNT_PURCHASE || $GOOGLE_IS_GOOGLE_ACCOUNT_PURCHASE == 
     $CHECK_GOOGLE_SUBSCRIPTION_AVAILABILITY = true;
     $PURCHASE_GOOGLE_SUBSCRIPTION = true;
     if ($GOOGLE_API_PLAN == "NONE") {
+        log_add("5023");
         $GOOGLE_ONLY_CREATE_CLIENT = true;
     } else {
+        log_add("5024");
         $GOOGLE_ONLY_CREATE_CLIENT = false;
     }
 } else if ($GOOGLE_IS_ACCOUNT_AVAILABLE_CHECK || $GOOGLE_IS_ACCOUNT_AVAILABLE_CHECK == "1" || $GOOGLE_IS_ACCOUNT_AVAILABLE_CHECK == "true") {
@@ -712,8 +714,6 @@ function google_get_client($google_global_token) {
 //DISCOVER IF DOMAIN FREE OR NOT
 function is_google_domain_available($reseller_service) {   
     global $DOMAIN;
-
-    //return true;    //BYPASS TEMPORAL.
 
     try {
         $response = $reseller_service->customers->get($DOMAIN);
